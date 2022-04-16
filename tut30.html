@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Css selectors</title>
+    <style>
+       h1{
+           background-color: teal;
+           color: thistle;
+           font-weight: bold;
+           text-align: center;
+       }
+       div p{
+           color: rebeccapurple;
+           font-weight: bold;
+           background-color: orange;
+       }
+
+       div>p{
+           background-color: rgb(25, 36, 180);
+           color: white;
+       }
+       div+p{
+           color:violet;
+           background-color: wheat;
+       }
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>
+                    <p>this is inside paragraph</p>
+                </li>
+            </ul>
+            <p>This is paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is third paragraph</p>
+</body>
+</html>

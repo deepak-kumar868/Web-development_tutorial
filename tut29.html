@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .box
+        {
+            text-align: center;
+            background-color: rosybrown;
+            color: yellow;
+            font-size: 40px;
+            display: none;
+        }
+
+        @media only screen and (min-width:450px) and (max-width:600px){
+            #box-2{
+               display: block;
+               background-color: teal;
+            }
+        }
+
+        @media only screen and (min-width:650px) and (max-width:800px){
+            #box-3{
+               display: block;
+               background-color: rgb(85, 228, 97);
+            }
+        }
+
+        @media only screen and (min-width:400px){
+            #box-1{
+               display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">Window</div>
+    <div class="box" id="box-2">MacOs</div>
+    <div class="box" id="box-3">kali linux</div>
+    <div class="box" id="box-4">Android</div>
+</body>
+</html>

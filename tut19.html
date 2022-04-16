@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box models</title>
+    <style>
+        body{
+            background-color: rgb(188, 221, 156);
+        }
+        .container
+        {
+            background-color: rgb(104, 170, 150);
+            border:black solid 3px;
+            /* padding: 5px; */
+
+            /* padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px; */
+
+            /* padding:20px 15px 15px 20px;    (top,right,bottom,left)  same in margin */
+             padding: 34px 19px;      /*y(top/buttom) x(left/right) */
+
+             margin: 14px 19px;    /*same as padding */
+            margin: 10px;
+            border-radius: 20px;
+            width: 500px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Box model,,margin,padding</h3>
+        <p id="first">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptates veritatis neque, inventore maiores labore iure dolore? Incidunt praesentium, repellendus, molestias veniam atque possimus deserunt provident cum, eos fugiat corporis?</p>
+    </div>
+
+    <div class="container">
+        <h3>Box model,,margin,padding</h3>
+        <p id="second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptates veritatis neque, inventore maiores labore iure dolore? Incidunt praesentium, repellendus, molestias veniam atque possimus deserunt provident cum, eos fugiat corporis?</p>
+    </div>
+
+    <div class="container">
+        <h3>Box model,,margin,padding</h3>
+        <p id="third">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptates veritatis neque, inventore maiores labore iure dolore? Incidunt praesentium, repellendus, molestias veniam atque possimus deserunt provident cum, eos fugiat corporis?</p>
+    </div>
+</body>
+</html>

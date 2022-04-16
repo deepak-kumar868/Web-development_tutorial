@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text shadow</title>
+    <style>
+        .card{
+            margin: 23px 12px;
+            padding: 23px 12px;
+            background-color: sandybrown;
+            width: 430px;
+            /* box-shadow: seagreen 11px 13px; */
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur-radius color; */
+            /*box-shadow: offset-x offset-y blur-radius  spread-radius color; */
+            /* box-shadow: rgb(154, 207, 29) -11px -13px; */
+            /* box-shadow: 7px 5px 10px green; */
+            /* box-shadow: 7px 5px 10px 20px green; */
+            /* box-shadow: inset 3px 5px green; */
+            /* box-shadow:  3px 5px green,5px 7px red; */
+        }
+        .container{
+            display: flex;
+        }
+        .card h2{
+           /* text-shadow: rgb(30, 223, 104) 5px 4px; */
+           /* text-shadow: rgb(30, 223, 104) -5px -4px; */
+           text-shadow:-5px -4px 3px 3px rgb(30, 223, 104);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+           <h2>This is c++ course</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, dolor porro fugit praesentium amet tenetur voluptas exercitationem, assumenda deleniti labore animi obcaecati ullam veniam ipsum incidunt, cupiditate itaque quisquam officia!</p> 
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is Html course</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, dolor porro fugit praesentium amet tenetur voluptas exercitationem, assumenda deleniti labore animi obcaecati ullam veniam ipsum incidunt, cupiditate itaque quisquam officia!</p> 
+        </div>
+        <div class="card" id="card-3">
+            <h2>This is python course</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, dolor porro fugit praesentium amet tenetur voluptas exercitationem, assumenda deleniti labore animi obcaecati ullam veniam ipsum incidunt, cupiditate itaque quisquam officia!</p> 
+        </div>
+    </div>
+</body>
+</html>

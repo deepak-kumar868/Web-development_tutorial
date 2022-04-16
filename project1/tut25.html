@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness centre</title>
+    <style>
+        body{
+            background: url(background.jpg);
+        }
+        .logo img{
+            width: 50px;
+            height: 60px;
+            margin: 10px 10px;
+            border-radius: 50px;
+            border: chartreuse solid 2px;
+        }
+        .list{
+            float:left;
+            list-style: none;
+            margin: -56px 521px;
+            border: solid rgb(125, 128, 122) 2px;
+            background-color: rgb(25, 25, 48);
+        }
+        .list li{
+            float: left;
+            margin:10px 30px;
+        }
+        .list li a{
+            color: rgb(233, 245, 62);
+        }
+        li a:hover{
+            cursor: pointer;
+            color: chartreuse;
+        }
+        .conta{
+            float: right; 
+            margin: -50px 10px;
+        }
+        .conta button{
+            background-color: rgb(54, 6, 110);
+            border: chartreuse solid 2px;
+            color: white;
+            width: 80px;
+            padding: 3px;
+            margin: 3px;
+            border-radius: 4px;
+        }
+        .conta button:hover{
+            background-color: rgb(241, 241, 136);
+            color: purple;
+        }
+        .name{
+            width: 500px;
+            height: 40px;
+            margin: 4px 20px;
+            border-radius: 4px;
+        }
+        .btn{
+            margin:10px 20px;
+            width: 507px;
+            height: 30px;
+            border-radius: 8px;
+            border: rgb(111, 189, 33) 1px solid;
+            background-color: rgb(12, 119, 83);
+        }
+        h3{
+            margin: 57px 20px 11px 20px;
+            border: rgb(148, 231, 220) solid 2px;
+            width: 500px;
+            height: 40px;
+            border-radius: 4px;
+            background-color:black;
+            color: rgb(151, 200, 228);
+            text-align: center;
+            font-size: 30px;
+        }
+        input{
+            text-align: center;
+            display: block;
+            background-color: rgb(201, 233, 252);
+        }
+
+    </style>
+</head>
+<body>
+    <header class="logo">
+        <img src="images.jpg" alt="">
+    </header>
+    <hearder>
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </hearder>
+    <div class="conta">
+        <button>Call Us</button>
+        <button>Email us</button>
+    </div>
+     <h3>
+             Welcome to Devil Gym
+     </h3>
+    <form action="Deepak.php"></form>
+        <div>
+            <input type="text" class="name" placeholder="Enter Your Name">
+        </div>
+        <div>
+            <input type="text" class="name" placeholder="Enter Your address">
+        </div>
+        <div>
+            <input type="tel" class="name"placeholder="Enter Your Phone Number">
+        </div>
+        <div>
+            <input type="email" class="name" placeholder="Enter Your Email">
+        </div>
+        <button class="btn">SUBMIT</button>
+    </body>
+</html>

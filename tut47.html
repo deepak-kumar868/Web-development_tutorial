@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        str="This is string";
+        console.log(str);
+
+        // First occurence of a substring
+        position=str.indexOf('is');
+        console.log(position);
+
+        //Last occurance of a substring
+        last=str.lastIndexOf('is');
+        console.log(last);
+
+        //substring from a string
+        // srbstr=str.slice(1,7);
+        // srbstr=str.substring(2,7);
+        srbstr=str.substr(2,7);
+        console.log(srbstr)
+
+        replaced=str.replace('string','Harry');
+        console.log(str);
+        console.log(replaced);
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        newstring=str.concat(' New string');
+        console.log(newstring);
+
+        strwithwhitespace="                this    contains white   spaces";
+        console.log(strwithwhitespace)
+        console.log(strwithwhitespace.trim())
+
+        console.log(str.charAt(2));
+        console.log(str.charCodeAt(2));
+        console.log(str[3]);
+    </script>
+</body>
+</html>

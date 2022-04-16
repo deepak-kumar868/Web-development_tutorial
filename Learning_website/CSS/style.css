@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    height: 47px;
+    border: 2px solid rgb(65, 67, 148);
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list li{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.nav-list li a{
+   text-decoration: none;
+   color: white;
+   padding-right: 70px;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 25px;
+}
+
+.logo{
+    padding: 2px;
+    width: 100px;
+}
+
+.logo img{
+    height: 100%;
+    width: 47%;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.watch,.subscribe{
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: rgb(195, 130, 233);
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.background{
+    background:url(../image/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+}
+.firsthalf{
+    width: 35%;
+}
+.secondhalf img{
+    width: 95%;
+    height: 50%;
+    border-radius: 450%;
+    margin-top: 37%;
+    margin-left: 25%;
+    border: 2px solid white;
+    opacity: 0.8;
+}
+.secondhalf{
+    width: 25%;
+}
+.text-small{
+   color:white;
+   font-size: 30px;
+}
+.text-big{
+    margin-top: 180px;
+    color: black;
+    font-size: 60px;
+    color: yellow;
+}

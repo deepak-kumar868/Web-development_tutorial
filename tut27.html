@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container{
+            height: 450px;
+            /* height:100%; */
+            width: 100%;
+            border: black 2px solid;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row; */
+            /* flex-direction:row-reverse; */
+             /* flex-wrap: wrap; */
+             /* flex-wrap:wrap-reverse; */
+            /* flex-direction:column-reverse; */
+            /* flex-wrap: reverse-wrap; */
+            /* flex-flow: row-reverse wrap; */
+
+            /* justify-content: center; */
+            /*justify-content: space-between;*/
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+
+            align-items: center;
+            /* align-items:flex-end; */
+            /* align-items:flex-start; */
+            /* align-items:stretch; */
+        }
+        #box1{ 
+            /* flex-grow: 3; */
+            order: 2;
+            flex-shrink: 10;
+            flex-basis: 30px;
+            flex: 2 2 30px;
+            align-self: center;
+            align-self:flex-end;
+            /* align-self:flex-start; */
+         }
+        .box{
+            height: 65px;
+            width: 120px;
+            border: red solid 2px;
+            margin: 4px 4px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is firebox tutorial</h3>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box5">5</div>
+        <div class="box" id="box6">6</div>
+        <!-- <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div> -->
+    </div>
+</body>
+</html>
